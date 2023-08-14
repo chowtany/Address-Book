@@ -1,0 +1,92 @@
+body {
+  background-color: deeppink;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lavenderblush;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: deeppink;
+}
+
+a {
+  text-decoration: none;
+  color: deeppink;
+  margin-top: 10px;
+  display: inline-block;
+  
+}
+
+/* Form styling */
+.form-container input {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  background-color: deeppink;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Contacts list styling */
+.contacts-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-container li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.contacts-container .delete-btn, .contacts-container .edit-btn  {
+  background-color:deeppink;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#save-edit-btn{
+  background-color: deeppink;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    max-width: 600px;
+  }
+
+
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 1025px) {
+  .container {
+    max-width: 1000px;
+  }
+
+ 
+}

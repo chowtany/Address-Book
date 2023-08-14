@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Add Contact</h1>
+    <div class="form-container">
+      <input type="text" id="name" placeholder="Name">
+      <input type="text" id="email" placeholder="Email">
+      <input type="text" id="address" placeholder="Address">
+      <input type="text" id="phone" placeholder="Phone Number">
+     
+      <button onclick="addContact() && displayContact()">Add Contact</button>
+    </div>
+    <a href="home.html">Back to Home</a><br>
+    <a href="contact-list.html">View Contact List</a> <!-- Add this line -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
