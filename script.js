@@ -31,9 +31,9 @@ function displayContacts() {
   contacts.forEach((contact, index) => {
     const li = document.createElement('li');
     li.innerHTML = `
-      <span>${contact.name}</span>
-      <span>${contact.email}</span>
-      <span>${contact.address}</span>
+      <span>${contact.name} |</span>
+      <span>${contact.email} |</span>
+      <span>${contact.address} |</span>
       <span>${contact.phone}</span>
       <button class="edit-btn" onclick="editContact(${index})">Edit</button>
       <button class="delete-btn" onclick="deleteContact(${index})">Delete</button>
